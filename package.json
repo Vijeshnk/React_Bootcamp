@@ -1,0 +1,30 @@
+{
+  "name": "main_folder",
+  "version": "1.0.0",
+  "description": "## 1. What is NPM ? ##### npm is a package manager for node js,it has a repository of open source software and it can be  used by anyone for free.npm makes writing code  easier  because we can rely on pre-built code that other people have written,we can use their code for  our  own projects.authors will write  the  code for their package and publish it on the npm registry then if we want to use that package  we can install it onto our own computer with the npm  cli or command line interface ## 2.What is Parcel/Webpack? Why do we need it ?\t #####  Parcel or Webpack are module bundlers,that combines many JavaScript code files into a single one that is production-ready loadable in the browser. ## 3.What is .parcel-cache ##### The  .parcel-cache  stores information about our project when parcel builds it, so that when it rebuilds, it doesn't have to re-parse and re-analyze everything from scratch.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vijeshnk/React_Bootcamp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vijeshnk/React_Bootcamp/issues"
+  },
+  "homepage": "https://github.com/Vijeshnk/React_Bootcamp#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.0",
+    "process": "^0.11.10"
+  }
+}
