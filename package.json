@@ -1,0 +1,30 @@
+{
+  "name": "main_folder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vijeshnk/React_Bootcamp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vijeshnk/React_Bootcamp/issues"
+  },
+  "homepage": "https://github.com/Vijeshnk/React_Bootcamp#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.0",
+    "process": "^0.11.10"
+  }
+}
