@@ -16,7 +16,10 @@ const Header = () => {
       </div>
 
       <div className="header-user">
-        <img src="https://icons8.com/icon/21441/user" alt="user icon" />
+        <img
+          src="https://img.icons8.com/cotton/512/gender-neutral-user.png"
+          alt="user icon"
+        />
       </div>
     </header>
   );

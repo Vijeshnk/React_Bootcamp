@@ -14,9 +14,9 @@ import Header from "./Header";
 
 // const heading = (
 //   <div id="title" className="title-class" tabIndex="1">
-//     <h1>h1 </h1>
-//     <h2>h2 </h2>
-//     <h3>h3 </h3>
+//     <h1>h1 using JSX</h1>
+//     <h2>h2 using JSX </h2>
+//     <h3>h3 using JSX </h3>
 //   </div>
 // );
 
@@ -30,6 +30,7 @@ const TitleComponent = () => {
 
 const HeadingComponent = () => {
   return (
+    //below is passing attributes to tags
     <div id="title" className="title-class" tabIndex="1">
       <Header />
       <TitleComponent />
