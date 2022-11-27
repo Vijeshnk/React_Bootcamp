@@ -1,3 +1,6 @@
+![screencapture-localhost-1234-2022-11-27-15_07_03](https://user-images.githubusercontent.com/48064217/204128518-ac471029-6578-4458-aa62-d68226ff69cb.png)
+
+
 # Theoretical assignment -session 3
 
 ## 1. What is JSX?
@@ -18,10 +21,12 @@
 ##### application/ecmascript
 ##### module
 
-## 4.{TitleComponent} VS {<TitleComponent/>} VS {<TitleComponent></TitleComponent>} in JSX.
-##### {TitleComponent} -> will have run time warning. Warning: Functions are not valid as react child. This may happen if you return a component instead of from render. Or may be you meant to call the function rather than returning it.
+## 4.{TitleComponent} vs {< TitleComponent />} vs { < TitleComponent > < / TitleComponent } in JSX
+##### {TitleComponent} -> will have run time warning.  when try to use {TitleComponent}
+##### console warning be like:
+##### index.js:1 Warning: Functions are not valid as a React child. This may happen if you return a Component instead of <Component /> from render. Or maybe you meant to call this function rather than return it. at div at HeadingComponent
 
-##### {<TitleComponent/>} -> short syntax of {<TitleComponent></TitleComponent}. It will render the TitleComponent.
+##### { < TitleComponent / > } -> short syntax of { < TitleComponent > < / TitleComponent }. It will render the TitleComponent.
 
-##### {<TitleComponent></TitleComponent} -> extended syntax of {<TitleComponent></TitleComponent}. -> this will also render the Title control
+##### { < TitleComponent > < / TitleComponent } -> extended syntax of { < TitleComponent/>}. -> this will also render the Title component,usualy used for custom buttom component when it wants to written some text between it.Eg: <CustomButton> Click here </CustomButton>
 
