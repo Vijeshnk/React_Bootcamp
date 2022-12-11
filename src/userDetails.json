@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ajay Pathak",
+      "address": "Gurugram, Haryana",
+      "organization": "Naehas Inc",
+      "designation": "Frontend Developer"
+    },
+    {
+      "id": 2,
+      "name": "Balaji Gaikwad",
+      "address": "Pune, Maharashtra",
+      "organization": "Nice Ltd",
+      "designation": "Senior Software Engineer"
+    },
+    {
+      "id": 3,
+      "name": "Chaitra J",
+      "address": "Bengaluru, Karnataka",
+      "organization": "Wells Fargo",
+      "designation": "Senior Software Engineer"
+    },
+    {
+      "id": 4,
+      "name": "Gourav Goswami",
+      "address": "Madhya Pradesh",
+      "organization": "Toschi Infotech",
+      "designation": "Frontend Developer"
+    },
+    {
+      "id": 5,
+      "name": "Kirti Sahai",
+      "address": "New Delhi",
+      "organization": "Kongsberg Digital",
+      "designation": "Senior Frontend Developer"
+    },
+    {
+      "id": 6,
+      "name": "Laxmi Waghmore",
+      "address": "Mumbai, Maharashtra",
+      "organization": "Cognizant",
+      "designation": "Frontend Developer"
+    },
+    {
+      "id": 7,
+      "name": "Mallikarjun K Basavanagowdra",
+      "address": "Bengaluru, Karnataka",
+      "organization": "William O'Neil India",
+      "designation": "Software Engineer"
+    },
+    {
+      "id": 8,
+      "name": "Pujarini Jena",
+      "address": "Gurugram, Haryana",
+      "organization": "CARS24",
+      "designation": "Software Engineer"
+    },
+    {
+      "id": 9,
+      "name": "Roshan Trivedi",
+      "address": "Muzaffarpur, Bihar",
+      "organization": "Infosys",
+      "designation": ""
+    },
+    {
+      "id": 10,
+      "name": "Vijesh N K",
+      "address": "Mangalore, Karnataka",
+      "organization": "Pace wisdom solutions",
+      "designation": ""
+    }
+  ]
+}
